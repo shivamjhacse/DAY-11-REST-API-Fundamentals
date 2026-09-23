@@ -8,12 +8,6 @@ app = FastAPI()
 emp_db: list[dict] = []
 seq_id =0
 
-'''def generate_id():
-    global seq_id
-    seq_id += 1
-    return seq_id
-    i can use this also insted of mannual seq id generation i can generate it by a function
-    '''
 
 
 

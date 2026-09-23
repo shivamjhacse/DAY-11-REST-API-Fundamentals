@@ -1,14 +1,3 @@
-'''{
-    "id": 1,
-    "name": "Rohit Singh",
-    "email": "rohit@example.com",
-    "department": "Engineering",
-    "designation": "Software Engineer",
-    "salary": 50000,
-    "is_active": true
-
-    our emp has data like this.....
-} '''
 
 from pydantic import BaseModel, EmailStr, Field
 
